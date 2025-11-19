@@ -1,5 +1,6 @@
 [
   {
+    "id": 1,
     "name": "진 토닉 (Gin Tonic)",
     "description": "진과 토닉 워터로 만드는 클래식하고 청량한 칵테일입니다.",
     "ingredients": [
@@ -14,9 +15,12 @@
       "가볍게 저어줍니다."
     ],
     "category": "하이볼",
-    "glass": "하이볼 글라스"
+    "glass": "하이볼 글라스",
+    "alcoholic": "Alcoholic",
+    "image": "/images/gin-tonic.jpg"
   },
   {
+    "id": 2,
     "name": "모히토 (Mojito)",
     "description": "럼 베이스에 라임과 민트가 들어간 쿠바 전통 칵테일입니다.",
     "ingredients": [
@@ -34,9 +38,12 @@
       "민트 sprig(장식용)로 장식합니다."
     ],
     "category": "머들드 칵테일",
-    "glass": "하이볼 글라스"
+    "glass": "하이볼 글라스",
+    "alcoholic": "Alcoholic",
+    "image": "/images/mojito.jpg"
   },
   {
+    "id": 3,
     "name": "올드 패션드 (Old Fashioned)",
     "description": "버번이나 라이 위스키에 설탕과 비터즈를 넣어 만드는 클래식하고 강렬한 칵테일입니다. 칵테일의 아버지라 불립니다.",
     "ingredients": [
@@ -53,9 +60,12 @@
       "가볍게 저어줍니다."
     ],
     "category": "위스키 클래식",
-    "glass": "올드 패션드 잔"
+    "glass": "올드 패션드 잔",
+    "alcoholic": "Alcoholic",
+    "image": "/images/old-fashioned.jpg"
   },
   {
+    "id": 4,
     "name": "마르가리타 (Margarita)",
     "description": "테킬라, 오렌지 리큐어, 라임 주스로 만드는 새콤하고 짭짤한 칵테일입니다. 솔트 림이 특징입니다.",
     "ingredients": [
@@ -71,6 +81,8 @@
       "라임 웨지 등으로 장식합니다."
     ],
     "category": "사워 칵테일",
-    "glass": "마르가리타 잔"
+    "glass": "마르가리타 잔",
+    "alcoholic": "Alcoholic",
+    "image": "/images/margarita.jpg"
   }
 ]
