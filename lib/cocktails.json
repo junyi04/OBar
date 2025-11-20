@@ -95,7 +95,7 @@
     "category": "진 베이스",
     "glass": "하이볼 글라스",
     "alcoholic": "Alcoholic",
-    "image": "/images/gin-tonic.jpg"
+    "image": "/images/Gin Tonic.jpeg"
   },
   {
     "id": 6,
@@ -113,7 +113,7 @@
     "category": "진 베이스",
     "glass": "칵테일 잔",
     "alcoholic": "Alcoholic",
-    "image": "/images/martini.jpg"
+    "image": "/images/Martini.jpeg"
   },
   {
     "id": 7,
@@ -131,7 +131,7 @@
     "category": "진 베이스",
     "glass": "올드 패션드 잔",
     "alcoholic": "Alcoholic",
-    "image": "/images/negroni.jpg"
+    "image": "/images/Negroni.jpeg"
   },
   {
     "id": 8,
@@ -152,7 +152,7 @@
     "category": "진 베이스",
     "glass": "하이볼 잔",
     "alcoholic": "Alcoholic",
-    "image": "/images/singapore-sling.jpg"
+    "image": "/images/Singapore Sling.jpeg"
   },
   {
     "id": 9,
@@ -174,7 +174,7 @@
     "category": "위스키 베이스",
     "glass": "올드 패션드 잔",
     "alcoholic": "Alcoholic",
-    "image": "/images/old-fashioned.jpg"
+    "image": "/images/Old Fashioned.jpeg"
   },
   {
     "id": 10,
@@ -193,7 +193,7 @@
     "category": "위스키 베이스",
     "glass": "칵테일 잔",
     "alcoholic": "Alcoholic",
-    "image": "/images/manhattan.jpg"
+    "image": "/images/Manhattan.jpeg"
   },
   {
     "id": 11,
@@ -214,7 +214,7 @@
     "category": "위스키 베이스",
     "glass": "올드 패션드 잔",
     "alcoholic": "Alcoholic",
-    "image": "/images/whiskey-sour.jpg"
+    "image": "/images/Whiskey Sour.jpeg"
   },
   {
     "id": 12,
@@ -234,7 +234,7 @@
     "category": "위스키 베이스",
     "glass": "잔",
     "alcoholic": "Alcoholic",
-    "image": "/images/mint-julep.jpg"
+    "image": "/images/Mint Julep.jpeg"
   },
   {
     "id": 13,
@@ -257,7 +257,7 @@
     "category": "럼 베이스",
     "glass": "하이볼 글라스",
     "alcoholic": "Alcoholic",
-    "image": "/images/mojito.jpg"
+    "image": "/images/Mojito.jpeg"
   },
   {
     "id": 14,
@@ -276,7 +276,7 @@
     "category": "럼 베이스",
     "glass": "하이볼 글라스",
     "alcoholic": "Alcoholic",
-    "image": "/images/pina-colada.jpg"
+    "image": "/images/Pina Colada.jpeg"
   },
   {
     "id": 15,
@@ -295,7 +295,7 @@
     "category": "럼 베이스",
     "glass": "칵테일 잔",
     "alcoholic": "Alcoholic",
-    "image": "/images/daiquiri.jpg"
+    "image": "/images/Daiquiri.jpeg"
   },
   {
     "id": 16,
@@ -314,7 +314,7 @@
     "category": "럼 베이스",
     "glass": "하이볼 글라스",
     "alcoholic": "Alcoholic",
-    "image": "/images/cuba-libre.jpg"
+    "image": "/images/Cuba Libre.jpeg"
   },
   {
     "id": 17,
@@ -335,7 +335,7 @@
     "category": "데킬라 베이스",
     "glass": "마르가리타 잔",
     "alcoholic": "Alcoholic",
-    "image": "/images/margarita.jpg"
+    "image": "/images/Margarita.jpeg"
   },
   {
     "id": 18,
@@ -354,7 +354,7 @@
     "category": "데킬라 베이스",
     "glass": "하이볼 글라스",
     "alcoholic": "Alcoholic",
-    "image": "/images/tequila-sunrise.jpg"
+    "image": "/images/Tequila Sunrise.jpeg"
   },
   {
     "id": 19,
@@ -373,7 +373,7 @@
     "category": "데킬라 베이스",
     "glass": "하이볼 글라스",
     "alcoholic": "Alcoholic",
-    "image": "/images/paloma.jpg"
+    "image": "/images/Paloma.jpeg"
   },
   {
     "id": 20,
@@ -392,6 +392,6 @@
     "category": "데킬라 베이스",
     "glass": "칵테일 글라스",
     "alcoholic": "Alcoholic",
-    "image": "/images/matador.jpg"
+    "image": "/images/Matador.jpeg"
   }
 ]
