@@ -1,4 +1,4 @@
-import { Cocktail } from "@/types/cocktail";
+import { Cocktail } from "@/types/cocktails";
 import Link from "next/link";
 import cocktailData from "@/lib/cocktails.json";
 

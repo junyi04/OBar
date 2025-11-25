@@ -1,7 +1,15 @@
+import { HeroSection } from '@/components/about/HeroSection';
+import { MixologySection } from '@/components/about/MixologySection';
+import { BrandStorySection } from '@/components/about/BrandStorySection';
+import { CTASection } from '@/components/about/CTASection';
+
 export default function AboutPage() {
   return (
-    <main className="flex flex-grow flex-col items-center justify-center bg-slate-950">
-      <p>About 페이지</p>
-    </main>
+    <>
+      <HeroSection />
+      <MixologySection />
+      <BrandStorySection />
+      <CTASection />
+    </>
   );
 }

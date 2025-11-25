@@ -3,7 +3,7 @@
 import { usePathname } from 'next/navigation';
 import cocktailData from "@/lib/cocktails.json";
 import { useEffect, useState } from 'react';
-import { Cocktail } from '@/types/cocktail';
+import { Cocktail } from '@/types/cocktails';
 import { ImageCocktail } from '@/components/detail/ImageCocktail';
 import { HeaderCocktail } from '@/components/detail/HeaderCocktail';
 import { IngredientCocktail } from '@/components/detail/IngredientCocktail';

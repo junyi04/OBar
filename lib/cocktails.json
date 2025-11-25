@@ -1,397 +1,548 @@
 [
   {
-    "id": 1,
+    "id": "1",
     "name": "모스코 뮬 (Moscow Mule)",
+    "nameKo": "모스코 뮬 (Moscow Mule)",
+    "category": "보드카 베이스",
     "description": "보드카의 깔끔한 맛을 베이스로, 진저에일의 톡 쏘는 생강향과 라임 주스의 산미가 더해진 상큼·시원한 칵테일이다. 첫 모금은 청량감이 확 올라오고, 뒤에는 은은한 생강 향이 부드럽게 남아 더위에 특히 잘 어울리는 시원한 스타일이다.",
+    "image": "/images/Moscow Mule.jpeg",
+    "alcohol": 45,
+    "difficulty": "Medium",
     "ingredients": [
-      {"item": "보드카", "amount": "45ml"},
-      {"item": "진저에일", "amount": "적당량"},
-      {"item": "라임 주스", "amount": "15ml"}
+      { "name": "보드카", "amount": "45ml" },
+      { "name": "진저에일", "amount": "적당량" },
+      { "name": "라임 주스", "amount": "15ml" }
     ],
-    "instructions": [
-      "하이볼 잔에 얼음을 채우고 보드카와 라임 주스를 넣습니다.",
-      "진저 에일을 가득 채우고 살짝 저어줍니다.",
-      "이후 레몬이나 라임 웨지로 가니쉬하면 완성."
-    ],
-    "category": "보드카 베이스",
+    "garnish": ["라임 웨지"],
     "glass": "하이볼 잔",
-    "alcoholic": "Alcoholic",
-    "image": "/images/Moscow Mule.jpeg"
+    "method": "하이볼 잔에 얼음을 채우고 보드카와 라임 주스를 넣습니다. 진저 에일을 가득 채우고 살짝 저어줍니다. 이후 레몬이나 라임 웨지로 가니쉬하면 완성.",
+    "taste": {
+      "sweet": 2,
+      "sour": 3,
+      "bitter": 1,
+      "strong": 4
+    },
+    "story": "모스코 뮬은 1940년대 후반에 미국 LA에서 처음 만들어졌다고 알려져 있습니다. 진저에일과 보드카의 조화가 특징입니다."
   },
   {
-    "id": 2,
+    "id": "2",
     "name": "코스모폴리탄 (Cosmopolitan)",
+    "nameKo": "코스모폴리탄 (Cosmopolitan)",
+    "category": "보드카 베이스",
     "description": "보드카 시트론의 상큼함 위에 크랜베리 주스의 달콤한 산미, 오렌지 리큐어의 과일 향이 어우러져 부드럽지만 은근히 도수가 느껴지는 칵테일이다. 달콤하고 가벼워 보이지만 실제로는 도수가 높아 ‘레이디 킬러’라 불릴 만큼 깔끔하고 뒤끝이 강렬한 맛이다. 컬러감까지 예뻐 파티 분위기에도 잘 어울린다.",
+    "image": "/images/Cosmopolitan.jpeg",
+    "alcohol": 40,
+    "difficulty": "Medium",
     "ingredients": [
-      {"item": "보드카 시트론", "amount": "40ml"},
-      {"item": "크랜베리 주스", "amount": "30ml"},
-      {"item": "오렌지 리큐어", "amount": "15ml"},
-      {"item": "라임즙", "amount": "15ml"}
+      { "name": "보드카 시트론", "amount": "40ml" },
+      { "name": "크랜베리 주스", "amount": "30ml" },
+      { "name": "오렌지 리큐어", "amount": "15ml" },
+      { "name": "라임즙", "amount": "15ml" }
     ],
-    "instructions": [
-      "셰이커에 얼음과 주재료를 넣고 8~10초정도 셰이킹합니다.",
-      "더블 스트레인으로 걸러내 차갑게 식힌 마티니 글라스에 따릅니다.",
-      "라임 웨지나 레몬 필 트위스트로 가니쉬합니다."
-    ],
-    "category": "보드카 베이스",
+    "garnish": ["라임 웨지", "레몬 필 트위스트"],
     "glass": "마티니 잔",
-    "alcoholic": "Alcoholic",
-    "image": "/images/Cosmopolitan.jpeg"
+    "method": "셰이커에 얼음과 주재료를 넣고 8~10초정도 셰이킹합니다. 더블 스트레인으로 걸러내 차갑게 식힌 마티니 글라스에 따릅니다. 라임 웨지나 레몬 필 트위스트로 가니쉬합니다.",
+    "taste": {
+      "sweet": 3,
+      "sour": 2,
+      "bitter": 1,
+      "strong": 3
+    },
+    "story": "코스모폴리탄은 1980년대 미국에서 여성들 사이에서 유행하였으며, 인기 TV 쇼인 '섹스 앤 더 시티'로 더욱 유명해졌습니다."
   },
   {
-    "id": 3,
+    "id": "3",
     "name": "블러디 메리 (Bloody Mary)",
+    "nameKo": "블러디 메리 (Bloody Mary)",
+    "category": "보드카 베이스",
     "description": "보드카의 묵직한 베이스에 토마토 주스의 진한 감칠맛이 더해져 짭짤하고 시원한 맛을 만든다. 레몬 주스의 산미, 타바스코와 후추의 매콤함이 더해져 해장용으로도 유명할 만큼 독특하게 상쾌한 느낌을 준다. 한 잔으로도 배부른, 식사같은 칵테일이다.",
+    "image": "/images/Bloody Mary.jpeg",
+    "alcohol": 45,
+    "difficulty": "Hard",
     "ingredients": [
-      {"item": "보드카", "amount": "45ml"},
-      {"item": "토마토 주스", "amount": "90ml"},
-      {"item": "레몬 주스", "amount": "10ml"},
-      {"item": "타바스코 소스", "amount": "1-2대시"},
-      {"item": "소금", "amount": "약간"},
-      {"item": "후추", "amount": "약간"}
+      { "name": "보드카", "amount": "45ml" },
+      { "name": "토마토 주스", "amount": "90ml" },
+      { "name": "레몬 주스", "amount": "10ml" },
+      { "name": "타바스코 소스", "amount": "1-2대시" },
+      { "name": "소금", "amount": "약간" },
+      { "name": "후추", "amount": "약간" }
     ],
-    "instructions": [
-      "셰이커에 모든 재료를 넣고 잘 흔듭니다.",
-      "얼음을 가득 채운 하이볼 글라스에 따라줍니다.",
-      "소금과 후추로 장식합니다."
-    ],
-    "category": "보드카 베이스",
+    "garnish": ["소금", "후추"],
     "glass": "하이볼 글라스",
-    "alcoholic": "Alcoholic",
-    "image": "/images/Bloody Mary.jpeg"
+    "method": "셰이커에 모든 재료를 넣고 잘 흔듭니다. 얼음을 가득 채운 하이볼 글라스에 따라줍니다. 소금과 후추로 장식합니다.",
+    "taste": {
+      "sweet": 1,
+      "sour": 2,
+      "bitter": 2,
+      "strong": 4
+    },
+    "story": "블러디 메리는 1920년대 초, 프랑스에서 개발된 것으로 전해지며, 해장용으로 유명한 칵테일입니다."
   },
   {
-    "id": 4,
+    "id": "4",
     "name": "블랙 러시안 (Black Russian)",
-    "description": "보드카의 깔끔한 바디감에 커피 리큐어의 달콤쌉싸름한 풍미가 강하게 느껴지는 진한 칵테일이다. 단맛과 쓴맛이 동시에 올라오고, 전체적으로 술 자체의 도수를 고스란히 느낄 수 있는 묵직한 스타일이다. 달콤한데 강한 술을 좋아하는 사람에게 잘 맞는다.",
-    "ingredients": [
-      {"item": "보드카", "amount": "50ml"},
-      {"item": "커피 리큐어", "amount": "25ml"}
-    ],
-    "instructions": [
-      "얼음을 채운 올드 패션드 잔에 보드카와 커피 리큐어를 붓습니다.",
-      "가볍게 저어줍니다."
-    ],
+    "nameKo": "블랙 러시안 (Black Russian)",
     "category": "보드카 베이스",
+    "description": "보드카의 깔끔한 바디감에 커피 리큐어의 달콤쌉싸름한 풍미가 강하게 느껴지는 진한 칵테일이다. 단맛과 쓴맛이 동시에 올라오고, 전체적으로 술 자체의 도수를 고스란히 느낄 수 있는 묵직한 스타일이다. 달콤한데 강한 술을 좋아하는 사람에게 잘 맞는다.",
+    "image": "/images/Black Russian.jpeg",
+    "alcohol": 50,
+    "difficulty": "Easy",
+    "ingredients": [
+      { "name": "보드카", "amount": "50ml" },
+      { "name": "커피 리큐어", "amount": "25ml" }
+    ],
+    "garnish": [],
     "glass": "올드 패션드 잔",
-    "alcoholic": "Alcoholic",
-    "image": "/images/Black Russian.jpeg"
+    "method": "얼음을 채운 올드 패션드 잔에 보드카와 커피 리큐어를 붓습니다. 가볍게 저어줍니다.",
+    "taste": {
+      "sweet": 2,
+      "sour": 1,
+      "bitter": 3,
+      "strong": 4
+    },
+    "story": "블랙 러시안은 1949년 벨기에에서 처음 만들어졌다고 전해지며, 커피 리큐어와 보드카가 조화를 이루는 칵테일입니다."
   },
   {
-    "id": 5,
+    "id": "5",
     "name": "진 토닉 (Gin Tonic)",
+    "nameKo": "진 토닉 (Gin Tonic)",
+    "category": "진 베이스",
     "description": "드라이 진의 솔향·허브향이 토닉 워터의 상쾌하고 가벼운 단맛과 만나 아주 깨끗하고 청량한 맛을 만든다. 라임이나 레몬을 더하면 쓴맛이 부드럽게 정리되고 상큼한 향이 올라와 전체적으로 깔끔하고 목넘김이 좋은, 누구나 즐기기 쉬운 칵테일이다.",
+    "image": "/images/Gin Tonic.jpeg",
+    "alcohol": 45,
+    "difficulty": "Easy",
     "ingredients": [
-      {"item": "드라이 진", "amount": "45ml"},
-      {"item": "토닉 워터", "amount": "적당량"},
-      {"item": "라임 또는 레몬 웨지", "amount": "1개"}
+      { "name": "드라이 진", "amount": "45ml" },
+      { "name": "토닉 워터", "amount": "적당량" },
+      { "name": "라임 또는 레몬 웨지", "amount": "1개" }
     ],
-    "instructions": [
-      "하이볼 글라스에 얼음을 가득 채웁니다.",
-      "진을 붓고 토닉 워터로 잔을 채웁니다.",
-      "라임 또는 레몬 웨지를 짜서 넣고 잔에 떨어뜨립니다.",
-      "가볍게 저어줍니다."
-    ],
-    "category": "진 베이스",
+    "garnish": ["라임 웨지", "레몬 웨지"],
     "glass": "하이볼 글라스",
-    "alcoholic": "Alcoholic",
-    "image": "/images/Gin Tonic.jpeg"
+    "method": "하이볼 글라스에 얼음을 가득 채웁니다. 진을 붓고 토닉 워터로 잔을 채웁니다. 라임 또는 레몬 웨지를 짜서 넣고 잔에 떨어뜨립니다. 가볍게 저어줍니다.",
+    "taste": {
+      "sweet": 2,
+      "sour": 3,
+      "bitter": 1,
+      "strong": 2
+    },
+    "story": "진 토닉은 19세기 영국에서 시작되었으며, 말라리아 예방을 위해 탄산수와 진을 결합한 칵테일입니다."
   },
   {
-    "id": 6,
-    "name": "마티니 (Martini)",
+    "id": "6",
+    "name": "Martini",
+    "nameKo": "마티니",
+    "category": "진 베이스",
     "description": "드라이 진의 강렬한 향과 베르무트의 허브·꽃향이 조화되는 가장 클래식한 칵테일이다. 한 모금만 마셔도 도수가 뚜렷하게 느껴질 만큼 깔끔하고 드라이하며, 올리브나 레몬 필이 들어가면 짭조름하거나 상큼한 여운이 더해진다. 강한 술을 선호하는 사람에게 어울리는 정통 스타일이다.",
+    "image": "/images/Martini.jpeg",
+    "alcohol": 35,
+    "difficulty": "Medium",
     "ingredients": [
-      {"item": "드라이 진", "amount": "60ml"},
-      {"item": "드라이 베르무트", "amount": "10ml"}
+      {"name": "드라이 진", "amount": "60ml"},
+      {"name": "드라이 베르무트", "amount": "10ml"}
     ],
-    "instructions": [
-      "셰이커에 얼음과 모든 재료를 넣고 잘 흔듭니다.",
-      "스트레인해서 칵테일 잔에 따릅니다.",
-      "올리브 또는 레몬 껍질로 장식합니다."
+    "garnish": [
+      "올리브",
+      "레몬 껍질"
     ],
-    "category": "진 베이스",
     "glass": "칵테일 잔",
-    "alcoholic": "Alcoholic",
-    "image": "/images/Martini.jpeg"
+    "method": "셰이커에 얼음과 모든 재료를 넣고 잘 흔든 후, 스트레인해서 칵테일 잔에 따릅니다.",
+    "taste": {
+      "sweet": 1,
+      "sour": 1,
+      "bitter": 2,
+      "strong": 5
+    },
+    "story": ""
   },
   {
-    "id": 7,
-    "name": "네그로니 (Negroni)",
+    "id": "7",
+    "name": "Negroni",
+    "nameKo": "네그로니",
+    "category": "진 베이스",
     "description": "진의 향긋한 보태니컬 향, 캄파리의 쌉싸름한 씁쓸함, 스위트 베르무트의 달콤한 허브 향이 완벽한 1:1:1 비율로 어우러진 깊은 맛의 칵테일이다. 쓴맛과 단맛이 동시에 느껴져 어른스러운 맛을 내며, 오렌지 향이 마지막에 은은하게 올라와 무게감 있는 고전풍 칵테일을 좋아하는 사람들에게 사랑받는다.",
+    "image": "/images/Negroni.jpeg",
+    "alcohol": 28,
+    "difficulty": "Easy",
     "ingredients": [
-      {"item": "드라이 진", "amount": "30ml"},
-      {"item": "캄파리", "amount": "30ml"},
-      {"item": "스위트 베르무트", "amount": "30ml"}
+      {"name": "드라이 진", "amount": "30ml"},
+      {"name": "캄파리", "amount": "30ml"},
+      {"name": "스위트 베르무트", "amount": "30ml"}
     ],
-    "instructions": [
-      "얼음을 채운 올드 패션드 잔에 모든 재료를 붓고 잘 저어줍니다.",
-      "오렌지 껍질로 장식합니다."
+    "garnish": [
+      "오렌지 껍질"
     ],
-    "category": "진 베이스",
     "glass": "올드 패션드 잔",
-    "alcoholic": "Alcoholic",
-    "image": "/images/Negroni.jpeg"
+    "method": "얼음을 채운 올드 패션드 잔에 모든 재료를 붓고 잘 저어줍니다.",
+    "taste": {
+      "sweet": 3,
+      "sour": 1,
+      "bitter": 5,
+      "strong": 4
+    },
+    "story": ""
   },
   {
-    "id": 8,
-    "name": "싱가포르 슬링 (Singapore Sling)",
+    "id": "8",
+    "name": "Singapore Sling",
+    "nameKo": "싱가포르 슬링",
+    "category": "진 베이스",
     "description": "진의 깔끔한 향을 바탕으로 체리 리큐어의 달콤함과 파인애플 주스의 풍부한 열대 과일향이 어우러진 밝고 화사한 칵테일이다. 레몬 주스의 산미가 단맛을 정리해주며, 전체적으로 과일 펀치를 마시는 듯한 상큼·달콤한 느낌을 준다. 열대 지방의 분위기가 물씬 나는, 분위기 전환용으로 딱 맞는 칵테일이다.",
+    "image": "/images/Singapore Sling.jpeg",
+    "alcohol": 12,
+    "difficulty": "Medium",
     "ingredients": [
-      {"item": "진", "amount": "30ml"},
-      {"item": "체리 리큐어", "amount": "15ml"},
-      {"item": "파인애플 주스", "amount": "90ml"},
-      {"item": "레몬 주스", "amount": "15ml"},
-      {"item": "그레나딘 시럽", "amount": "10ml"}
+      {"name": "진", "amount": "30ml"},
+      {"name": "체리 리큐어", "amount": "15ml"},
+      {"name": "파인애플 주스", "amount": "90ml"},
+      {"name": "레몬 주스", "amount": "15ml"},
+      {"name": "그레나딘 시럽", "amount": "10ml"}
     ],
-    "instructions": [
-      "셰이커에 모든 재료와 얼음을 넣고 잘 흔듭니다.",
-      "스트레인해서 하이볼 잔에 따라줍니다.",
-      "체리나 파인애플 조각으로 장식합니다."
+    "garnish": [
+      "체리",
+      "파인애플 조각"
     ],
-    "category": "진 베이스",
     "glass": "하이볼 잔",
-    "alcoholic": "Alcoholic",
-    "image": "/images/Singapore Sling.jpeg"
+    "method": "셰이커에 모든 재료와 얼음을 넣고 잘 흔든 후, 스트레인해서 하이볼 잔에 따라줍니다.",
+    "taste": {
+      "sweet": 5,
+      "sour": 3,
+      "bitter": 1,
+      "strong": 2
+    },
+    "story": ""
   },
   {
-    "id": 9,
-    "name": "올드 패션드 (Old Fashioned)",
+    "id": "9",
+    "name": "Old Fashioned",
+    "nameKo": "올드 패션드",
+    "category": "위스키 베이스",
     "description": "버번 또는 라이 위스키의 깊고 묵직한 풍미가 중심이 되며, 설탕의 은은한 단맛과 앙고스투라 비터즈의 스파이시한 향이 더해져 클래식한 밸런스를 이룬다. 위스키 본연의 맛을 해치지 않으면서 부드럽게 다듬어주는 스타일로, 첫 모금부터 깊고 진한 느낌이 살아난다. ‘칵테일의 아버지’라 불릴 만큼 전통적이고 품격 있는 맛을 준다.",
+    "image": "/images/Old Fashioned.jpeg",
+    "alcohol": 32,
+    "difficulty": "Medium",
     "ingredients": [
-      {"item": "버번 위스키 또는 라이 위스키", "amount": "60ml"},
-      {"item": "설탕 또는 설탕 시럽", "amount": "1각 또는 5ml"},
-      {"item": "앙고스투라 비터즈", "amount": "2-3대시"},
-      {"item": "오렌지 껍질", "amount": "장식용"}
+      {"name": "버번 위스키 또는 라이 위스키", "amount": "60ml"},
+      {"name": "설탕 또는 설탕 시럽", "amount": "1각 또는 5ml"},
+      {"name": "앙고스투라 비터즈", "amount": "2-3대시"},
+      {"name": "오렌지 껍질", "amount": "장식용"}
     ],
-    "instructions": [
-      "올드 패션드 잔에 설탕과 비터즈를 넣습니다.",
-      "설탕 시럽을 사용하지 않는 경우, 약간의 물이나 위스키를 넣어 설탕을 녹입니다.",
-      "위스키와 얼음을 넣고 잘 희석될 때까지 섞어줍니다.",
-      "오렌지 껍질로 잔의 입구를 문지른 뒤 잔에 넣습니다.",
-      "가볍게 저어줍니다."
+    "garnish": [
+      "오렌지 껍질"
     ],
-    "category": "위스키 베이스",
     "glass": "올드 패션드 잔",
-    "alcoholic": "Alcoholic",
-    "image": "/images/Old Fashioned.jpeg"
+    "method": "올드 패션드 잔에 설탕과 비터즈를 넣고 녹인 후, 위스키와 얼음을 넣고 잘 희석될 때까지 섞어줍니다. (오렌지 껍질로 잔의 입구를 문지른 뒤 잔에 넣고 가볍게 저어줍니다.)",
+    "taste": {
+      "sweet": 3,
+      "sour": 1,
+      "bitter": 3,
+      "strong": 5
+    },
+    "story": ""
   },
   {
-    "id": 10,
-    "name": "맨해튼 (Manhattan)",
+    "id": "10",
+    "name": "Manhattan",
+    "nameKo": "맨해튼",
+    "category": "위스키 베이스",
     "description": "버번 위스키의 묵직한 단맛과 스위트 베르무트의 허브 향이 조화된 클래식한 칵테일이다. 비터즈가 향을 잡아주어 전체적으로 부드럽고 깊은 풍미가 느껴진다. 달콤하지만 도수도 뚜렷해, 고급스럽고 어른스러운 느낌의 칵테일을 좋아하는 사람에게 어울린다.",
+    "image": "/images/Manhattan.jpeg",
+    "alcohol": 30,
+    "difficulty": "Medium",
     "ingredients": [
-      {"item": "버번 위스키", "amount": "50ml"},
-      {"item": "스위트 베르무트", "amount": "25ml"},
-      {"item": "앙고스투라 비터즈", "amount": "2-3대시"}
+      {"name": "버번 위스키", "amount": "50ml"},
+      {"name": "스위트 베르무트", "amount": "25ml"},
+      {"name": "앙고스투라 비터즈", "amount": "2-3대시"}
     ],
-    "instructions": [
-      "셰이커에 얼음과 재료를 넣고 잘 흔듭니다.",
-      "스트레인해서 칵테일 잔에 따릅니다.",
-      "체리로 장식합니다."
+    "garnish": [
+      "체리"
     ],
-    "category": "위스키 베이스",
     "glass": "칵테일 잔",
-    "alcoholic": "Alcoholic",
-    "image": "/images/Manhattan.jpeg"
+    "method": "셰이커에 얼음과 재료를 넣고 잘 흔든 후, 스트레인해서 칵테일 잔에 따릅니다.",
+    "taste": {
+      "sweet": 3,
+      "sour": 1,
+      "bitter": 2,
+      "strong": 5
+    },
+    "story": ""
   },
   {
-    "id": 11,
-    "name": "위스키 사워 (Whiskey Sour)",
+    "id": "11",
+    "name": "Whiskey Sour",
+    "nameKo": "위스키 사워",
+    "category": "위스키 베이스",
     "description": "버번 위스키의 따뜻한 풍미에 레몬 주스의 산미가 확 살아나며 설탕 시럽이 부드럽게 단맛을 더해 새콤달콤한 밸런스를 완성한다. 계란 흰자를 사용하면 거품이 더해져 한층 크리미하고 고급스러운 질감을 느낄 수 있다. 입맛을 환기시키는 상큼한 느낌의 칵테일이다.",
+    "image": "/images/Whiskey Sour.jpeg",
+    "alcohol": 18,
+    "difficulty": "Medium",
     "ingredients": [
-      {"item": "버번 위스키", "amount": "45ml"},
-      {"item": "레몬 주스", "amount": "30ml"},
-      {"item": "설탕 시럽", "amount": "15ml"},
-      {"item": "계란 흰자", "amount": "1개 (선택)"},
-      {"item": "앙고스투라 비터즈", "amount": "1-2대시"}
+      {"name": "버번 위스키","amount": "45ml"},
+      {"name": "레몬 주스","amount": "30ml"},
+      {"name": "설탕 시럽","amount": "15ml"},
+      {"name": "계란 흰자","amount": "1개 (선택)"},
+      {"name": "앙고스투라 비터즈","amount": "1-2대시"}
     ],
-    "instructions": [
-      "셰이커에 얼음과 모든 재료를 넣고 잘 흔듭니다.",
-      "스트레인해서 올드 패션드 잔에 따릅니다.",
-      "비터즈를 한 대시 뿌려 장식합니다."
+    "garnish": [
+      "비터즈 (한 대시)"
     ],
-    "category": "위스키 베이스",
     "glass": "올드 패션드 잔",
-    "alcoholic": "Alcoholic",
-    "image": "/images/Whiskey Sour.jpeg"
+    "method": "셰이커에 얼음과 모든 재료를 넣고 잘 흔든 후, 스트레인해서 올드 패션드 잔에 따릅니다.",
+    "taste": {
+      "sweet": 3,
+      "sour": 5,
+      "bitter": 1,
+      "strong": 3
+    },
+    "story": ""
   },
   {
-    "id": 12,
-    "name": "민트 줄렙 (Mint Julep)",
-    "description": "민트 잎의 시원하고 청량한 향에 버번 위스키의 달콤하고 묵직한 맛이 뒤따라오는 상쾌한 칵테일이다. 설탕 시럽이 목넘김을 부드럽게 만들어주고, 얼음이 녹으면서 점점 더 깔끔한 맛으로 바뀐다. 뜨거운 여름에 특히 잘 어울리는, 시원한 허브 향이 돋보이는 정통 위스키 칵테일이다.",
-    "ingredients": [
-      {"item": "버번 위스키", "amount": "60ml"},
-      {"item": "설탕 시럽", "amount": "15ml"},
-      {"item": "민트 잎", "amount": "10-12장"},
-      {"item": "얼음", "amount": "적당량"}
-    ],
-    "instructions": [
-      "민트 잎과 설탕 시럽을 넣고 머들러로 가볍게 으깹니다.",
-      "버번 위스키와 얼음을 넣고 잘 섞습니다.",
-      "민트 잎으로 장식합니다."
-    ],
+    "id": "12",
+    "name": "Mint Julep",
+    "nameKo": "민트 줄렙",
     "category": "위스키 베이스",
+    "description": "민트 잎의 시원하고 청량한 향에 버번 위스키의 달콤하고 묵직한 맛이 뒤따라오는 상쾌한 칵테일이다. 설탕 시럽이 목넘김을 부드럽게 만들어주고, 얼음이 녹으면서 점점 더 깔끔한 맛으로 바뀐다. 뜨거운 여름에 특히 잘 어울리는, 시원한 허브 향이 돋보이는 정통 위스키 칵테일이다.",
+    "image": "/images/Mint Julep.jpeg",
+    "alcohol": 20,
+    "difficulty": "Easy",
+    "ingredients": [
+      {"name": "버번 위스키", "amount": "60ml"},
+      {"name": "설탕 시럽", "amount": "15ml"},
+      {"name": "민트 잎", "amount": "10-12장"},
+      {"name": "얼음", "amount": "적당량"}
+    ],
+    "garnish": [
+      "민트 잎"
+    ],
     "glass": "잔",
-    "alcoholic": "Alcoholic",
-    "image": "/images/Mint Julep.jpeg"
+    "method": "민트 잎과 설탕 시럽을 넣고 머들러로 가볍게 으깬 후, 버번 위스키와 얼음을 넣고 잘 섞습니다.",
+    "taste": {
+      "sweet": 4,
+      "sour": 1,
+      "bitter": 1,
+      "strong": 4
+    },
+    "story": ""
   },
   {
-    "id": 13,
-    "name": "모히토 (Mojito)",
+    "id": "13",
+    "name": "Mojito",
+    "nameKo": "모히토",
+    "category": "럼 베이스",
     "description": "화이트 럼의 가벼운 단맛 위에 라임의 상큼함과 신선한 민트 향이 더해져 매우 청량감 있는 칵테일이다. 설탕이 은은한 단맛을 더해주고, 탄산수의 톡 쏘는 느낌이 기분 좋게 이어진다. 시원하고 가벼운 맛으로 해변이나 여름 밤을 떠올리게 하는 대표적인 쿠바 스타일 칵테일이다.",
+    "image": "/images/Mojito.jpeg",
+    "alcohol": 12,
+    "difficulty": "Medium",
     "ingredients": [
-      {"item": "화이트 럼", "amount": "45ml"},
-      {"item": "라임 주스", "amount": "30ml"},
-      {"item": "설탕", "amount": "2티스푼"},
-      {"item": "민트 잎", "amount": "6-8장"},
-      {"item": "탄산수", "amount": "적당량"},
-      {"item": "얼음", "amount": "적당량"}
+      {"name": "화이트 럼", "amount": "45ml"},
+      {"name": "라임 주스", "amount": "30ml"},
+      {"name": "설탕", "amount": "2티스푼"},
+      {"name": "민트 잎", "amount": "6-8장"},
+      {"name": "탄산수", "amount": "적당량"},
+      {"name": "얼음", "amount": "적당량"}
     ],
-    "instructions": [
-      "하이볼 글라스에 민트 잎과 설탕, 라임 주스를 넣고 머들러로 가볍게 으깹니다.",
-      "럼과 얼음을 넣습니다.",
-      "탄산수로 잔을 채우고 바 스푼으로 부드럽게 섞어줍니다.",
-      "민트 sprig(장식용)로 장식합니다."
+    "garnish": [
+      "민트 sprig",
+      "라임 슬라이스"
     ],
-    "category": "럼 베이스",
     "glass": "하이볼 글라스",
-    "alcoholic": "Alcoholic",
-    "image": "/images/Mojito.jpeg"
+    "method": "하이볼 글라스에 민트 잎과 설탕, 라임 주스를 넣고 머들러로 가볍게 으깬 후, 럼과 얼음을 넣고 탄산수로 잔을 채우고 바 스푼으로 부드럽게 섞어줍니다.",
+    "taste": {
+      "sweet": 4,
+      "sour": 4,
+      "bitter": 1,
+      "strong": 2
+    },
+    "story": ""
   },
   {
-    "id": 14,
-    "name": "피나 콜라다 (Pina Colada)",
+    "id": "14",
+    "name": "Pina Colada",
+    "nameKo": "피나 콜라다",
+    "category": "럼 베이스",
     "description": "화이트 럼의 깔끔한 단맛을 베이스로 파인애플 주스의 열대 과일 풍미와 코코넛 크림의 부드러운 고소함이 만나 달콤하고 크리미한 트로피컬 칵테일을 만든다. 디저트처럼 풍부한 질감에 달달하면서도 향긋해 휴양지에서 마시는 듯한 여유로운 기분을 준다.",
+    "image": "/images/Pina Colada.jpeg",
+    "alcohol": 15,
+    "difficulty": "Easy",
     "ingredients": [
-      {"item": "화이트 럼", "amount": "45ml"},
-      {"item": "파인애플 주스", "amount": "90ml"},
-      {"item": "코코넛 크림", "amount": "30ml"}
+      {"name": "화이트 럼", "amount": "45ml"},
+      {"name": "파인애플 주스", "amount": "90ml"},
+      {"name": "코코넛 크림", "amount": "30ml"}
     ],
-    "instructions": [
-      "셰이커에 모든 재료와 얼음을 넣고 잘 흔듭니다.",
-      "스트레인해서 하이볼 글라스에 따릅니다.",
-      "파인애플 조각으로 장식합니다."
+    "garnish": [
+      "파인애플 조각"
     ],
-    "category": "럼 베이스",
     "glass": "하이볼 글라스",
-    "alcoholic": "Alcoholic",
-    "image": "/images/Pina Colada.jpeg"
+    "method": "셰이커에 모든 재료와 얼음을 넣고 잘 흔든 후, 스트레인해서 하이볼 글라스에 따릅니다.",
+    "taste": {
+      "sweet": 5,
+      "sour": 3,
+      "bitter": 1,
+      "strong": 2
+    },
+    "story": ""
   },
   {
-    "id": 15,
-    "name": "다이키리 (Daiquiri)",
+    "id": "15",
+    "name": "Daiquiri",
+    "nameKo": "다이키리",
+    "category": "럼 베이스",
     "description": "화이트 럼의 깔끔한 단맛, 라임 주스의 톡 쏘는 산미, 설탕 시럽의 은은한 단맛이 깔끔하고 직선적인 맛을 만든다. 재료는 단순하지만 맛의 밸런스가 뛰어난 클래식 칵테일로, 상큼하고 시원한 한 모금 뒤에 럼의 부드러운 여운이 남는 것이 특징이다.",
+    "image": "/images/Daiquiri.jpeg",
+    "alcohol": 18,
+    "difficulty": "Easy",
     "ingredients": [
-      {"item": "화이트 럼", "amount": "45ml"},
-      {"item": "라임 주스", "amount": "25ml"},
-      {"item": "설탕 시럽", "amount": "15ml"}
+      {"name": "화이트 럼", "amount": "45ml"},
+      {"name": "라임 주스", "amount": "25ml"},
+      {"name": "설탕 시럽","amount": "15ml"}
     ],
-    "instructions": [
-      "셰이커에 모든 재료와 얼음을 넣고 잘 흔듭니다.",
-      "스트레인해서 칵테일 잔에 따릅니다.",
-      "라임 웨지로 장식합니다."
+    "garnish": [
+      "라임 웨지"
     ],
-    "category": "럼 베이스",
     "glass": "칵테일 잔",
-    "alcoholic": "Alcoholic",
-    "image": "/images/Daiquiri.jpeg"
+    "method": "셰이커에 모든 재료와 얼음을 넣고 잘 흔든 후, 스트레인해서 칵테일 잔에 따릅니다.",
+    "taste": {
+      "sweet": 3,
+      "sour": 5,
+      "bitter": 1,
+      "strong": 3
+    },
+    "story": ""
   },
-  {
-    "id": 16,
-    "name": "쿠바 리브레 (Cuba Libre)",
-    "description": "화이트 럼의 가벼운 단맛에 콜라의 달콤함과 라임 주스의 상큼함이 더해져 시원하고 친숙한 맛이 난다. 콜라 덕분에 마시기 쉽고 청량감이 높아 일상적으로 즐기기 좋은 캐주얼 칵테일이다. 럼 콜라에 상큼함까지 더한 완성형 버전이라 할 수 있다.",
-    "ingredients": [
-      {"item": "화이트 럼", "amount": "45ml"},
-      {"item": "콜라", "amount": "적당량"},
-      {"item": "라임 주스", "amount": "15ml"}
-    ],
-    "instructions": [
-      "하이볼 글라스에 얼음을 채우고 럼과 라임 주스를 넣습니다.",
-      "콜라로 잔을 채우고 잘 섞어줍니다.",
-      "라임 웨지로 장식합니다."
-    ],
+{
+    "id": "16",
+    "name": "Cuba Libre",
+    "nameKo": "쿠바 리브레",
     "category": "럼 베이스",
+    "description": "화이트 럼의 가벼운 단맛에 콜라의 달콤함과 라임 주스의 상큼함이 더해져 시원하고 친숙한 맛이 난다. 콜라 덕분에 마시기 쉽고 청량감이 높아 일상적으로 즐기기 좋은 캐주얼 칵테일이다. 럼 콜라에 상큼함까지 더한 완성형 버전이라 할 수 있다.",
+    "image": "/images/Cuba Libre.jpeg",
+    "alcohol": 12,
+    "difficulty": "Easy",
+    "ingredients": [
+      {"name": "화이트 럼","amount": "45ml"},
+      {"name": "콜라","amount": "적당량"},
+      {"name": "라임 주스","amount": "15ml"}
+    ],
+    "garnish": [
+      "라임 웨지"
+    ],
     "glass": "하이볼 글라스",
-    "alcoholic": "Alcoholic",
-    "image": "/images/Cuba Libre.jpeg"
+    "method": "하이볼 글라스에 얼음을 채우고 럼과 라임 주스를 넣은 후, 콜라로 잔을 채우고 잘 섞어줍니다.",
+    "taste": {
+      "sweet": 4,
+      "sour": 3,
+      "bitter": 1,
+      "strong": 2
+    },
+    "story": ""
   },
   {
-    "id": 17,
-    "name": "마르가리타 (Margarita)",
+    "id": "17",
+    "name": "Margarita",
+    "nameKo": "마르가리타",
+    "category": "데킬라 베이스",
     "description": "테킬라의 향긋한 아가베 풍미에 라임 주스의 강한 산미, 오렌지 리큐어의 달콤한 과일향이 어우러져 상큼하면서도 짭짤한 맛을 낸다. 잔 테두리에 소금을 묻히는 솔트 림이 새콤·짭짤 조합을 강조해주며, 한 모금만 마셔도 강렬한 멕시코의 느낌이 살아난다. 시원하고 도전적인 맛을 좋아하는 사람에게 인기 있다.",
+    "image": "/images/Margarita.jpeg",
+    "alcohol": 25,
+    "difficulty": "Medium",
     "ingredients": [
-      {"item": "테킬라", "amount": "45ml"},
-      {"item": "오렌지 리큐어 (트리플 섹)", "amount": "30ml"},
-      {"item": "라임 주스", "amount": "15ml"},
-      {"item": "소금", "amount": "잔 테두리 장식용"}
+      {"name": "테킬라","amount": "45ml"},
+      {"name": "오렌지 리큐어 (트리플 섹)","amount": "30ml"},
+      {"name": "라임 주스","amount": "15ml"},
+      {"name": "소금","amount": "잔 테두리 장식용"}
     ],
-    "instructions": [
-      "마르가리타 잔의 테두리에 라임 주스를 묻힌 후 소금을 묻힙니다(솔트 림).",
-      "테킬라, 오렌지 리큐어, 라임 주스를 셰이커에 넣고 얼음과 함께 흔들어줍니다.",
-      "소금 림을 한 잔에 얼음을 거르면서 따라줍니다.",
-      "라임 웨지 등으로 장식합니다."
+    "garnish": [
+      "솔트 림",
+      "라임 웨지"
     ],
-    "category": "데킬라 베이스",
     "glass": "마르가리타 잔",
-    "alcoholic": "Alcoholic",
-    "image": "/images/Margarita.jpeg"
+    "method": "잔 테두리에 솔트 림을 만든 후, 테킬라, 오렌지 리큐어, 라임 주스를 셰이커에 넣고 얼음과 함께 흔들어 따라줍니다.",
+    "taste": {
+      "sweet": 3,
+      "sour": 5,
+      "bitter": 1,
+      "strong": 4
+    },
+    "story": ""
   },
   {
-    "id": 18,
-    "name": "데킬라 선라이즈 (Tequila Sunrise)",
+    "id": "18",
+    "name": "Tequila Sunrise",
+    "nameKo": "데킬라 선라이즈",
+    "category": "데킬라 베이스",
     "description": "테킬라의 깔끔한 풍미에 오렌지 주스의 달콤한 과일향이 어우러지고, 그레나딘 시럽이 아래에 깔리며 달콤하고 부드러운 여운을 만든다. 이름처럼 ‘일출’처럼 보이는 아름다운 층이 특징이며, 맛은 부드럽고 달달해 누구나 마시기 쉬운 스타일이다.",
+    "image": "/images/Tequila Sunrise.jpeg",
+    "alcohol": 15,
+    "difficulty": "Easy",
     "ingredients": [
-      {"item": "테킬라", "amount": "45ml"},
-      {"item": "오렌지 주스", "amount": "90ml"},
-      {"item": "그레나딘 시럽", "amount": "15ml"}
+      {"name": "테킬라", "amount": "45ml"},
+      {"name": "오렌지 주스", "amount": "90ml"},
+      {"name": "그레나딘 시럽", "amount": "15ml"}
     ],
-    "instructions": [
-      "하이볼 글라스에 얼음을 채우고 테킬라와 오렌지 주스를 넣습니다.",
-      "그레나딘 시럽을 천천히 붓고 자연스럽게 층을 만듭니다.",
-      "오렌지 웨지로 장식합니다."
+    "garnish": [
+      "오렌지 웨지"
     ],
-    "category": "데킬라 베이스",
     "glass": "하이볼 글라스",
-    "alcoholic": "Alcoholic",
-    "image": "/images/Tequila Sunrise.jpeg"
+    "method": "하이볼 글라스에 얼음을 채우고 테킬라와 오렌지 주스를 넣은 후, 그레나딘 시럽을 천천히 부어 층을 만듭니다.",
+    "taste": {
+      "sweet": 5,
+      "sour": 2,
+      "bitter": 1,
+      "strong": 2
+    },
+    "story": ""
   },
   {
-    "id": 19,
-    "name": "팔로마 (Paloma)",
+    "id": "19",
+    "name": "Paloma",
+    "nameKo": "팔로마",
+    "category": "데킬라 베이스",
     "description": "테킬라의 산뜻한 향에 자몽 주스의 쌉싸름하고 상큼한 풍미, 탄산수의 청량감이 더해져 깔끔하고 시원한 맛을 낸다. 마르가리타보다 가볍고 더 상큼한 느낌이라 가볍게 마시기 좋고, 과일 향이 부드럽게 이어지며 뒷맛이 매우 깔끔하다.",
+    "image": "/images/Paloma.jpeg",
+    "alcohol": 12,
+    "difficulty": "Easy",
     "ingredients": [
-      {"item": "테킬라", "amount": "45ml"},
-      {"item": "자몽 주스", "amount": "60ml"},
-      {"item": "탄산수", "amount": "적당량"}
+      {"name": "테킬라", "amount": "45ml"},
+      {"name": "자몽 주스", "amount": "60ml"},
+      {"name": "탄산수", "amount": "적당량"}
     ],
-    "instructions": [
-      "하이볼 글라스에 얼음을 채우고 테킬라와 자몽 주스를 넣습니다.",
-      "탄산수로 채우고 잘 섞어줍니다.",
-      "자몽 웨지로 장식합니다."
+    "garnish": [
+      "자몽 웨지"
     ],
-    "category": "데킬라 베이스",
     "glass": "하이볼 글라스",
-    "alcoholic": "Alcoholic",
-    "image": "/images/Paloma.jpeg"
+    "method": "하이볼 글라스에 얼음을 채우고 테킬라와 자몽 주스를 넣은 후, 탄산수로 채우고 잘 섞어줍니다.",
+    "taste": {
+      "sweet": 3,
+      "sour": 4,
+      "bitter": 3,
+      "strong": 2
+    },
+    "story": ""
   },
   {
-    "id": 20,
-    "name": "마타도르 (Matador)",
-    "description": "데킬라의 향긋한 아가베 향과 파인애플 주스의 달콤한 열대 과일 맛, 라임 주스의 산미가 조화된 밝고 상큼한 칵테일이다. 마시기 부드럽고 과일향이 풍부해 산뜻하면서도 달콤한 여운이 남는다. 여름 휴양지를 떠올리게 하는 가벼운 트로피컬 스타일이다.",
-    "ingredients": [
-      {"item": "데킬라", "amount": "45ml"},
-      {"item": "파인애플 주스", "amount": "60ml"},
-      {"item": "라임 주스", "amount": "15ml"}
-    ],
-    "instructions": [
-      "쉐이커에 얼음을 넣고 데킬라, 파인애플 주스, 라임 주스를 넣습니다.",
-      "잘 흔든 후, 칵테일 글라스에 따라줍니다.",
-      "라임 웨지로 장식합니다."
-    ],
+    "id": "20",
+    "name": "Matador",
+    "nameKo": "마타도르",
     "category": "데킬라 베이스",
+    "description": "데킬라의 향긋한 아가베 향과 파인애플 주스의 달콤한 열대 과일 맛, 라임 주스의 산미가 조화된 밝고 상큼한 칵테일이다. 마시기 부드럽고 과일향이 풍부해 산뜻하면서도 달콤한 여운이 남는다. 여름 휴양지를 떠올리게 하는 가벼운 트로피컬 스타일이다.",
+    "image": "/images/Matador.jpeg",
+    "alcohol": 15,
+    "difficulty": "Easy",
+    "ingredients": [
+      {"name": "데킬라", "amount": "45ml"},
+      {"name": "파인애플 주스", "amount": "60ml"},
+      {"name": "라임 주스", "amount": "15ml"}
+    ],
+    "garnish": [
+      "라임 웨지"
+    ],
     "glass": "칵테일 글라스",
-    "alcoholic": "Alcoholic",
-    "image": "/images/Matador.jpeg"
+    "method": "쉐이커에 얼음을 넣고 데킬라, 파인애플 주스, 라임 주스를 넣고 잘 흔든 후, 칵테일 글라스에 따라줍니다.",
+    "taste": {
+      "sweet": 4,
+      "sour": 4,
+      "bitter": 1,
+      "strong": 3
+    },
+    "story": ""
   }
 ]
