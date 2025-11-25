@@ -1,4 +1,4 @@
-import { Cocktail } from "@/types/cocktail";
+import { Cocktail } from "@/types/cocktails";
 
 export const IngredientCocktail = ({ ingredients }: { ingredients: Cocktail["ingredients"] }) => {
   return (
