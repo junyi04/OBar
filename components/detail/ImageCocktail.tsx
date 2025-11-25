@@ -1,6 +1,6 @@
 export const ImageCocktail = ({ image, name }: { image: string; name: string }) => {
   return (
-    <div className="flex justify-center items-center w-full h-86">
+    <div className="flex justify-center items-center w-full h-86 mt-10 rounded-lg border-2 border-white">
       <img
         src={image}
         alt={name}
